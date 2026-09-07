@@ -74,9 +74,9 @@ try:
             st.plotly_chart(fig, use_container_width=True)
 
     st.markdown("---")
-    st.subheader("🤖 ڕاوێژکاری ژیری دەستکرد")
+    st.subheader("🤖Rabar ڕاوێژکاری ژیری دەستکرد")
     if "messages" not in st.session_state:
-        st.session_state.messages = [{"role": "assistant", "content": "سڵاو من Rabar AI م، چۆن یارمەتیت بدەم؟"}]
+        st.session_state.messages = [{"role": "assistant", "content": "سڵاو چۆن یارمەتیت بدەم؟"}]
     for m in st.session_state.messages:
         with st.chat_message(m["role"]): st.markdown(m["content"])
     if prompt := st.chat_input("بپرسە..."):
