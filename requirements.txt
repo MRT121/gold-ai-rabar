@@ -1,8 +1,0 @@
-streamlit
-yfinance
-pandas
-numpy
-plotly
-scikit-learn
-g4f
-duckduckgo_search
